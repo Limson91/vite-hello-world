@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 export default {
   data() {
     return {
@@ -6,6 +6,11 @@ export default {
     }
   }
 }
+</script> -->
+
+<script setup>
+import appHero from './components/AppHero.vue'
+
 </script>
 
 <template>
@@ -20,6 +25,7 @@ export default {
   <HelloWorld msg="Vite + Vue" /> -->
 
   <h1>{{ message }}</h1>
+  <appHero />
 </template>
 
 <style scoped>
